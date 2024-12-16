@@ -5,7 +5,7 @@ import Header from './components/Header';
 import ToolSubmissionForm from './components/ToolSubmissionForm';
 import ToolGrid from './components/ToolGrid';
 import { Tool } from './types';
-import { Toaster } from 'react-hot-toast';
+import { Toaster, toast } from 'react-hot-toast';
 
 const App: React.FC = () => {
   const [tools, setTools] = useState<Tool[]>([]);
